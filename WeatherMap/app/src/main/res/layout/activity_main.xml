@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor"
+    tools:context=".Controller.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_the_city_which_you_wan_t_to_know_about_weather"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:background="@color/blockColor"
+                android:layout_marginVertical="5sp"
+                android:orientation="horizontal" tools:targetApi="o">
+
+                <ImageView
+                    android:layout_width="120sp"
+                    android:layout_height="80sp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/todo"
+                    android:maxWidth="5sp"
+                    android:maxHeight="5sp"
+                    android:src="@drawable/london_logo" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/london_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/london_great_britian"
+                        android:textAlignment="center"
+                        android:textColor="@color/textColor"
+                        android:textSize="14sp" />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/london_temperature"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:text="@string/no_net_n"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/btnLondon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20sp"
+                            android:layout_weight="1"
+                            android:background="@color/colorPrimary"
+                            android:text="@string/show"
+                            android:textColor="@color/textColor" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:background="@color/blockColor"
+                android:layout_marginVertical="5sp"
+                android:orientation="horizontal" tools:targetApi="o">
+
+                <ImageView
+                    android:layout_width="120sp"
+                    android:layout_height="80sp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/todo"
+                    android:maxWidth="5sp"
+                    android:maxHeight="5sp"
+                    android:src="@drawable/madrid_logo" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/madrid_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/madrid_spain"
+                        android:textAlignment="center"
+                        android:textColor="@color/textColor"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/madrid_temperature"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:text="@string/no_net_n"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/btnMadrid"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20sp"
+                            android:layout_weight="1"
+                            android:background="@color/colorPrimary"
+                            android:text="@string/show"
+                            android:textColor="@color/textColor" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:background="@color/blockColor"
+                android:layout_marginVertical="5sp"
+                android:orientation="horizontal" tools:targetApi="o">
+
+                <ImageView
+                    android:layout_width="120sp"
+                    android:layout_height="80sp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/todo"
+                    android:maxWidth="5sp"
+                    android:maxHeight="5sp"
+                    android:src="@drawable/sydney_logo" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/sydney_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sydney_australia"
+                        android:textAlignment="center"
+                        android:textColor="@color/textColor"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/sydney_temperature"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:text="@string/no_net_n"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/btnSydney"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20sp"
+                            android:layout_weight="1"
+                            android:background="@color/colorPrimary"
+                            android:text="@string/show"
+                            android:textColor="@color/textColor" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:layout_marginVertical="5sp"
+                android:background="@color/blockColor"
+                android:orientation="horizontal" tools:targetApi="o">
+
+                <ImageView
+                    android:layout_width="120sp"
+                    android:layout_height="80sp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/todo"
+                    android:maxWidth="5sp"
+                    android:maxHeight="5sp"
+                    android:src="@drawable/moscow_logo" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/moscow_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/moscow_russia"
+                        android:textAlignment="center"
+                        android:textColor="@color/textColor"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/moscow_temperature"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:text="@string/no_net_n"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/btnMoscow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20sp"
+                            android:layout_weight="1"
+                            android:background="@color/colorPrimary"
+                            android:text="@string/show"
+                            android:textColor="@color/textColor" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:layout_marginVertical="5sp"
+                android:background="@color/blockColor"
+                android:orientation="horizontal" tools:targetApi="o">
+
+                <ImageView
+                    android:layout_width="120sp"
+                    android:layout_height="80sp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/todo"
+                    android:maxWidth="5sp"
+                    android:maxHeight="5sp"
+                    android:src="@drawable/tokyo_logo" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tokyo_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tokyo_japan"
+                        android:textAlignment="center"
+                        android:textColor="@color/textColor"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tokyo_temperature"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:text="@string/no_net_n"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/btnTokyo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20sp"
+                            android:layout_weight="1"
+                            android:background="@color/colorPrimary"
+                            android:text="@string/show"
+                            android:textColor="@color/textColor" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:layout_marginVertical="5sp"
+                android:background="@color/blockColor"
+                android:orientation="horizontal" tools:targetApi="o">
+
+                <ImageView
+                    android:layout_width="120sp"
+                    android:layout_height="80sp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/todo"
+                    android:maxWidth="5sp"
+                    android:maxHeight="5sp"
+                    android:src="@drawable/new_york_logo" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/newyork_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/new_york_usa"
+                        android:textAlignment="center"
+                        android:textColor="@color/textColor"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/newyork_temperature"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:text="@string/no_net_n"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/btnNewYork"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20sp"
+                            android:layout_weight="1"
+                            android:background="@color/colorPrimary"
+                            android:text="@string/show"
+                            android:textColor="@color/textColor" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:layout_marginVertical="5sp"
+                android:background="@color/blockColor"
+                android:orientation="horizontal" tools:targetApi="o">
+
+                <ImageView
+                    android:layout_width="120sp"
+                    android:layout_height="80sp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/todo"
+                    android:maxWidth="5sp"
+                    android:maxHeight="5sp"
+                    android:src="@drawable/cairo_logo" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/cairo_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cairo_egypt"
+                        android:textAlignment="center"
+                        android:textColor="@color/textColor"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/cairo_temperature"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:text="@string/no_net_n"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/btnCairo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20sp"
+                            android:layout_weight="1"
+                            android:background="@color/colorPrimary"
+                            android:text="@string/show"
+                            android:textColor="@color/textColor" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:layout_marginVertical="5sp"
+                android:background="@color/blockColor"
+                android:orientation="horizontal" tools:targetApi="o">
+
+                <ImageView
+                    android:layout_width="120sp"
+                    android:layout_height="80sp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/todo"
+                    android:maxWidth="5sp"
+                    android:maxHeight="5sp"
+                    android:src="@drawable/choose_logo" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/choose_your_city"
+                        android:textAlignment="center"
+                        android:textColor="@color/textColor"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btnMap"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/map"
+                        android:textColor="@color/textColor" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5ea3b8</color>
+    <color name="textColor">#110947</color>
+    <color name="colorPrimaryDark">#356a7a</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="blockColor">#ffffff</color>
+    <color name="backgroundColor">#749ca6</color>
+    <color name="todayColor">#7d7d7d</color>
+    <color name="maxTemp">#eb1717</color>
+    <color name="minTemp">#00a6ff</color>
+    <color name="daycolor">#fff700</color>
+    <color name="nightcolor">#000000</color>
+</resources>

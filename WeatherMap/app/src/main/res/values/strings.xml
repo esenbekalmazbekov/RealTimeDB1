@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">WeatherMap</string>
+    <string name="todo">TODO</string>
+    <string name="london_great_britian"><![CDATA[London -> Great Britian]]></string>
+    <string name="show">show</string>
+    <string name="choose_the_city_which_you_wan_t_to_know_about_weather">choose the city!!!</string>
+    <string name="madrid_spain"><![CDATA[Madrid - > Spain]]></string>
+    <string name="sydney_australia"><![CDATA[Sydney -> Australia]]></string>
+    <string name="moscow_russia"><![CDATA[Moscow -> Russia]]></string>
+    <string name="tokyo_japan"><![CDATA[Tokyo -> Japan]]></string>
+    <string name="new_york_usa"><![CDATA[New York -> USA]]></string>
+    <string name="cairo_egypt"><![CDATA[Cairo -> Egypt]]></string>
+    <string name="choose_your_city">choose your city</string>
+    <string name="map">map</string>
+    <string name="no_net_n">no net N</string>
+    <string name="today">TODAY</string>
+    <string name="tempmax">TempMax</string>
+    <string name="tempmin">TempMin</string>
+    <string name="precipitationtype">precipitationType</string>
+    <string name="precipitationintensity">precipitationIntensity</string>
+    <string name="day">Day</string>
+    <string name="night">Night</string>
+    <string name="tomorrow">TOMORROW</string>
+</resources>
