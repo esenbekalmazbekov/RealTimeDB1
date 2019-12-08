@@ -21,4 +21,7 @@
     <string name="day">Day</string>
     <string name="night">Night</string>
     <string name="tomorrow">TOMORROW</string>
+    <string name="googleApiKey">AIzaSyAT0Zwe3ii3vh0465sd07g9YZVnD2LTN7g</string>
+    <string name="search">Search</string>
+    <string name="gps">gps</string>
 </resources>
