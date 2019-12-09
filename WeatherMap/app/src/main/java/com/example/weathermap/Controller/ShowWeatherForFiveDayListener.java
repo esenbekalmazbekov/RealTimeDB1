@@ -9,7 +9,7 @@ public class ShowWeatherForFiveDayListener implements View.OnClickListener {
     private MainActivity mainActivity;
     private String name;
     private CityWeather cityWeather;
-    public ShowWeatherForFiveDayListener(MainActivity mainActivity, String name, CityWeather cityWeather) {
+    ShowWeatherForFiveDayListener(MainActivity mainActivity, String name, CityWeather cityWeather) {
         this.mainActivity = mainActivity;
         this.name = name;
         this.cityWeather = cityWeather;
