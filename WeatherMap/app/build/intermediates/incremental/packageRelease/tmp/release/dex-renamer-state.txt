@@ -1,0 +1,7 @@
+#Mon Dec 09 01:29:15 KGT 2019
+base.0=/home/esenbek/AndroidStudioProjects/WeatherMap/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/home/esenbek/AndroidStudioProjects/WeatherMap/app/build/intermediates/dex/release/mergeDexRelease/out/classes2.dex
