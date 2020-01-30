@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/enter_name"
+        android:text=""
+        tools:ignore="Autofill" />
+
+    <Spinner
+        android:id="@+id/spinnerGenres"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:entries="@array/genres"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonAddArtists"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/buttonChangeArtists"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/change"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/buttonDeleteArtists"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/buttonRetrieveToken"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/retrieve"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+
+    <view class="androidx.recyclerview.widget.RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listViewArtists"/>
+</LinearLayout>
